@@ -1,0 +1,5 @@
+Repository: https://github.com/r-Keys-kbd/zmk-pmw3610-driver
+Commit: eb287e474d245cd23b83f31b1d10f3b43b2e3659
+Local change: exclude the auto mouse layer from pointer mode selection;
+resolve Studio layer indexes to stable layer IDs.
+Original source copyright and SPDX notices are preserved.
