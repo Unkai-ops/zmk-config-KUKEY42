@@ -15,7 +15,27 @@
 };
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        combo_jk_left_click {
+            timeout-ms = <50>;
+            key-positions = <18 19>;
+            bindings = <&mkp LCLK>;
+        };
+
+        combo_kl_right_click {
+            timeout-ms = <50>;
+            key-positions = <19 20>;
+            bindings = <&mkp RCLK>;
+        };
+
+        combo_jl_middle_click {
+            timeout-ms = <50>;
+            key-positions = <18 20>;
+            bindings = <&mkp MCLK>;
+        };
+    };
 
     macros {
         to_layer_0: to_layer_0 {
